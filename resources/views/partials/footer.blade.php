@@ -5,20 +5,20 @@
                 <div class="list">
                     <p class="list-title">dc comics</p> 
                     <ul>
-                        <li><a href="#">Characters</a></li>
-                        <li><a href="#">Comics</a></li>
-                        <li><a href="#">Movies</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">News</a></li>
+                        <li><a href="{{ route('characters') }}">Characters</a></li>
+                        <li><a href="{{ route('comics') }}">Comics</a></li>
+                        <li><a href="{{ route('movies') }}">Movies</a></li>
+                        <li><a href="{{ route('tv') }}">TV</a></li>
+                        <li><a href="{{ route('games') }}">Games</a></li>
+                        <li><a href="{{ route('videos') }}">Videos</a></li>
+                        <li><a href="{{ route('news') }}">News</a></li>
                     </ul>
                 </div>
                 <div class="list">
                     <p class="list-title">shop</p> 
                     <ul>
-                        <li><a href="#">Shop DC</a></li>
-                        <li><a href="#">Shop DC Collectibles</a></li>
+                        <li><a href="{{ route('shop') }}">Shop DC</a></li>
+                        <li><a href="{{ route('collectibles') }}">Shop DC Collectibles</a></li>
                     </ul>
                 </div>
                 <div class="list">
