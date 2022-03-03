@@ -29,7 +29,6 @@ header .header .logo {
 
 header .header .logo > img {
   width: 75%;
-  cursor: pointer;
 }
 
 header .header ul {
