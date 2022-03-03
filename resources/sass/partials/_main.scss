@@ -1,0 +1,50 @@
+main {
+    background-color: #1C1C1C;
+    padding: 50px 0;
+
+    .comics-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        .comic-card {
+            width: calc(1200px / 6);
+            margin-bottom: 30px;
+
+            .comic-thumbnail {
+                width: 100%;
+
+                img {
+                }
+            }
+
+            p {
+                font-size: 15px;
+                margin: 15px 0;
+                text-transform: uppercase;
+                color: $text-secondary-color;
+            }
+        }  
+    }
+
+    .btn-box {
+        display: flex;
+        justify-content: center;
+
+        .more-btn {
+            background-color: $text-primary-color;
+            border: 2px $text-primary-color solid;
+            color: $text-secondary-color;
+            font-size: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px 50px;
+            cursor: pointer;
+
+            &:hover {
+                border: 2px $text-secondary-color solid;
+            }
+        }
+    }  
+}
