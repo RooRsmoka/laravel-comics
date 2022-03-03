@@ -5,7 +5,7 @@
                 <img src="{{ asset('img/dc-logo.png') }}" alt="">
             </a>
         </div>
-        <div class="nav-bar">
+        <div>
             <ul>
                 <li><a href="{{ route('characters') }}">characters</a></li>
                 <li><a href="{{ route('comics') }}">comics</a></li>
@@ -19,6 +19,6 @@
                 <li><a href="{{ route('shop') }}">shop</a></li>
             </ul>
         </div>
-        <input type="text">
+        <input type="text" placeholder="Search">
     </div>
 </header>
