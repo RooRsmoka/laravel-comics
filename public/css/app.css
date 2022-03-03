@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header .logo {
+  width: 100px;
+}
+
+header .header .logo > img {
+  width: 75%;
+  cursor: pointer;
+}
+
+header .header ul {
+  list-style: none;
+  display: flex;
+}
+
+header .header ul li {
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+header .header ul li a {
+  text-decoration: none;
+  color: #464646;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header .header ul li a:hover {
+  color: #0282F9;
+}
+
+main {
+  background-color: #1C1C1C;
+  padding: 50px 0;
+}
+
+main .comics-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .comics-list .comic-card {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+main .comics-list .comic-card .comic-thumbnail {
+  width: 100%;
+}
+
+main .comics-list .comic-card p {
+  font-size: 15px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+main .btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+main .btn-box .more-btn {
+  background-color: #0282F9;
+  border: 2px #0282F9 solid;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+main .btn-box .more-btn:hover {
+  border: 2px #fff solid;
+}
+
+.footer-up {
+  background: url("/img/footer-bg.jpg") center;
+  background-size: cover;
+}
+
+.footer-up .lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-up .lists .footer-list {
+  height: 500px;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer-up .lists .footer-list .list {
+  margin-right: 35px;
+  margin-bottom: 20px;
+}
+
+.footer-up .lists .footer-list .list .list-title {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer-up .lists .footer-list .list ul {
+  list-style: none;
+}
+
+.footer-up .lists .footer-list .list ul li {
+  padding: 5px 0;
+}
+
+.footer-up .lists .footer-list .list ul li a {
+  font-size: 16px;
+  color: #959595;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-up .lists .footer-list .list ul li a:hover {
+  color: #fff;
+}
+
+.footer-up .lists .footer-logo {
+  height: 500px;
+}
+
+.footer-up .lists .footer-logo img {
+  height: 100%;
+}
+
+.footer-down {
+  background-color: #303030;
+}
+
+.footer-down .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-down .sign-up-btn {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px;
+  border: 2px #0282F9 solid;
+  cursor: pointer;
+}
+
+.footer-down .sign-up-btn:hover {
+  background-color: #0282F9;
+}
+
+.footer-down .social {
+  display: flex;
+  align-items: center;
+}
+
+.footer-down .social p {
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #0282F9;
+}
+
+.footer-down .social a img {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
