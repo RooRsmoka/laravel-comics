@@ -34,5 +34,11 @@ header {
                 }
             }
         }
+
+        input {
+            text-align: end;
+            border: none;
+            border-bottom: 2px $text-primary-color solid;
+        }
     }
 }

@@ -52,6 +52,19 @@ header .header ul li a:hover {
   color: #0282F9;
 }
 
+header .header input {
+  text-align: end;
+  border: none;
+  border-bottom: 2px #0282F9 solid;
+}
+
+.jumbotron {
+  background: url("/img/jumbotron.jpg") no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 320px;
+}
+
 main {
   background-color: #1C1C1C;
   padding: 50px 0;
